@@ -1,7 +1,6 @@
 import java.util.Stack;
 
 class MyQueue {
-
     private Stack<Integer> stackIn;
     private Stack<Integer> stackOut;
 
