@@ -8,7 +8,7 @@ public class InplaceShuffle {
 
         // Fisher-Yates Shuffle
         for (int i = n - 1; i > 0; i--) {
-            int j = rand.nextInt(i + 1); // 0 ≤ j ≤ i
+            int j = rand.nextInt(i + 1);
 
             int temp = arr[i];
             arr[i] = arr[j];
